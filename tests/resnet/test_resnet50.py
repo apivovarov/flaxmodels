@@ -44,4 +44,3 @@ def test_reference_output():
     diff = jnp.mean(jnp.abs(out - out_ref))
 
     assert diff < 1e-5
-
